@@ -2,7 +2,7 @@
 public class Course
 {   
     public int MaxStudents = 25;
-    public int perfectScore = 100;
+    public const int perfectScore = 100;
     
     public int CourseLength(){
         int courseLength = 20;
