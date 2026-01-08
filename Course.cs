@@ -1,10 +1,14 @@
 ﻿namespace knightmoves;
 public class Course
 {   
-    // Add your code here
+    public int MaxStudents { get; set; } = 25;
+    public int perfectScore { get; set; } = 100;
     
     public int CourseLength(){
-        // Add your code here
-        return 0;
+        int courseLength = 20;
+
+
+
+        return courseLength;
     }
 }
